@@ -1,0 +1,60 @@
+.addOrder {
+    width: 40%; /* Increased width for consistency with other forms */
+    background-color: #c4dcea; /* Matching background color */
+    box-shadow: 0 4px 8px rgba(232, 226, 226, 0.1); /* Consistent shadow */
+    border-radius: 8px; /* Slightly more rounded corners */
+    margin: 50px auto;
+    padding: 30px; /* Slightly reduced padding for balance */
+}
+
+.addOrder h3 {
+    font-size: 28px; /* Matching the font size with the Order page */
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addOrderForm {
+    margin-top: 20px;
+}
+
+.addOrderForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Uniform margin for input groups */
+}
+
+.addOrderForm .inputGroup label {
+    margin-bottom: 8px;
+    font-size: 16px; /* Matching the font size */
+    font-weight: bold; /* Making labels bold for better readability */
+    color: #555; /* Subtle color change for labels */
+}
+
+.addOrderForm .inputGroup input,
+.addOrderForm .inputGroup select {
+    padding: 12px;
+    border-radius: 8px; /* Consistent border-radius */
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+}
+
+.addOrderForm .inputGroup button {
+    border: 0;
+    outline: none;
+    background-color: #007bff; /* Matching button background color */
+    color: white;
+    font-weight: bold; /* Matching button font weight */
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 8px; /* Consistent border-radius */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+}
+
+.addOrderForm .inputGroup button:hover {
+    background-color: #0056b3; /* Matching hover effect */
+}

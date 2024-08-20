@@ -1,0 +1,64 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.dashboard-container h2{
+    align-items: center;
+}
+
+.dashboard-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 48%;
+}
+
+.stat-box p {
+    font-size: 18px;
+    color: #666;
+}
+
+.stat-box h3 {
+    font-size: 36px;
+    color: #007bff;
+    margin: 10px 0 0 0;
+}
+
+.dashboard-charts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Added gap between charts */
+    flex-wrap: wrap;
+}
+
+.chart-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%; /* Ensures that both charts fit side by side */
+    margin-bottom: 20px;
+}
+
+.chart-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
